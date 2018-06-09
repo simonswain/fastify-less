@@ -1,0 +1,31 @@
+{
+  "name": "fastify-less",
+  "version": "0.1.0",
+  "description": "Plugin for serving less",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonswain/fastify-less.git"
+  },
+  "keywords": [
+    "fastify",
+    "less"
+  ],
+  "author": "Simon Swain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonswain/fastify-less/issues"
+  },
+  "homepage": "https://github.com/simonswain/fastify-less#readme",
+  "dependencies": {
+    "fastify-plugin": "^1.0.1",
+    "less": "^3.0.4"
+  },
+  "devDependencies": {
+    "fastify": "^1.5.0",
+    "fastify-static": "^0.12.0"
+  }
+}
